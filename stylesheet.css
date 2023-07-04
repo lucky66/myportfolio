@@ -223,16 +223,25 @@ ul > li {
   display: none;
 }
 
-#content1 {
+#about {
 	display: block;
 	padding: 15px;
 	line-height: 25px;
 	text-align: justify;
 }
 
-#content4 {
-/*	display: flex;
-	text-align: center;*/
+#content {
+	text-align: justify;
+}
+
+#content a {
+	text-decoration: none;
+	color: #495aff;
+}
+
+#content a:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
 }
 
 .contact_me {
