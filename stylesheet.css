@@ -7,40 +7,16 @@
 
 body,
 html {
-	max-height: 100%;
 	font-family: "Arial Rounded MT Bold", Arial;
 	font-size: 15px;
 	background-color: #e5e7eb;
 	transition: background-color 500ms ease-in-out;
 	color: #000;
-	overflow: hidden;
 }
 
 body.light {
 	background-color: #16191d;
 	color: #fff;
-}
-
-.scroll-container {
-  /* Set a fixed height and enable overflow for scrolling */
-  height: 650px;
-  max-width: 100%;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-}
-
-/* Customize the appearance of the scroll button */
-.scroll-container::-webkit-scrollbar {
-  width: 10px; /* Width of the scrollbar */
-}
-
-.scroll-container::-webkit-scrollbar-thumb {
-  background-color: #888; /* Color of the scroll thumb */
-  border-radius: 5px; /* Border radius of the scroll thumb */
-}
-
-.scroll-container::-webkit-scrollbar-track {
-  background-color: #f2f2f2; /* Background color of the scrollbar track */
 }
 
 .logo {
