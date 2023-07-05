@@ -102,7 +102,7 @@ background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 
 #sub_header {
 /*	margin: 0 auto;*/
-	margin: -148px 68px 10px 68px;
+	margin: -140px 68px 10px 68px;
 	height: 100%;
 	display: block;
 	background-color: ;
@@ -112,7 +112,11 @@ background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 80px;
+	padding: 15px 0px 0px 0px;
+}
+
+.bio_section {
+	margin-top: 12px;
 }
 
 .award {
@@ -378,4 +382,22 @@ ul > li {
 footer {
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+
+/*media screens for smartphone*/
+
+@media screen and (max-width:767px) {
+#sub_header {
+/*	margin: 0 auto;*/
+	margin: -130px 6px 10px 15px;
+}
+
+.profile_shape {
+		width: 120px;
+		height: 120px;
+    left: 10px;
+    top: -60px;
+}
+
 }
