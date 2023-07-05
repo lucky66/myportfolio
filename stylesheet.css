@@ -19,27 +19,29 @@ body.light {
 	color: #fff;
 }
 
+.upper_nav {
+	font-size: 20px;
+}
+
 .logo {
-	margin: 0;
-	padding: 6px;
-	font-size: 25px; 
+	padding: 7px 8px;
 	border-radius: 5px;
 }
 
 .logo:hover {
 	background-color: #a6a6a6;
 	cursor: pointer;
-	}
+}
 
 nav.upper_nav {
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 15px;
 }
 
 #colorToggle {
-	padding: 10px 15px;
+	padding: 10px 12px;
 	border-radius: 5px;
 }
 
