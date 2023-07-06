@@ -127,7 +127,6 @@ background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 }
 
 .hire_me {
-/*	margin: 20px 80px 0px 0px;*/
 	padding: 12px;
 	float: right;
 /*	background-color: #a26314;*/
@@ -147,37 +146,33 @@ background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 .hire_me:hover {
 	text-decoration: none;
 	color: #fff;
-/*	border: 1px solid #000;*/
 }
 
 #sub_section {
 }
 
 .section_nav {
-	display: flex;
-	justify-content: center;
-	max-width: 100%;
-	margin: 15px 0px;
+	width: 100%;
 	height: 50px;
 }
 
 ul {
 	list-style:none;
 	padding-left:0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 ul > li {
-	float: left;
+	width: 25%;
 	font-weight: bold;  
-	font-size: 15px;  
 }
 
 .section_nav li > a {
 	display: block;
 	text-decoration: none;
 	color: inherit;
-	padding: 15px 40px 10px 40px;
-/*	background-color: navy;*/
+	text-align: center;
 }
 
 .section_nav li > a:hover {
