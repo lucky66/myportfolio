@@ -267,7 +267,16 @@
 									<h1>Send me a message!</h1>
 									<h6 style="margin-top: 20px;">Got a question or proposal, or just want to say hello? Go ahead.</h6>
 									<div id="form" class="form">
-										<form>
+										<form action="https://formsubmit.co/el/sofapo" method="POST">
+											<!-- Weed out spammer -->
+											<input type="text" name="_honey" style="display: none;">
+
+											<!-- Remove Captcha -->
+											<input type="hidden" name="_captcha" value="false">
+
+											<!-- Redirect -->
+											<input type="hidden" name="_next" value="https://lucky66.github.io/myportfolio/index.html">
+
 											<div class="row">
 												<div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12">
 													<div class="inputBox">
