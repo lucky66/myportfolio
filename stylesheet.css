@@ -211,6 +211,64 @@ ul > li {
 
 #projects {
 	margin-top: 30px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#project_profile {
+	margin-top: 30px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1px;
+	width: 100%;
+	height: 100%;
+}
+
+.project_image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.project_image img{
+	width: 80%;
+	height: 50%;
+}
+
+.overlay_text {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	left: 59px;
+	top: 0;
+	width: 80%;
+	height: 100%;
+	background-color: rgba(73, 90, 255, .3);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5em;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.overlay_text > * {
+	transform: translateY(20px);
+}
+
+.overlay_text:hover {
+	opacity: 1;
+}
+
+.overlay_text:hover > * {
+	transform: translateY(0px);
+	transition: transform 0.5s;
 }
 
 #content {
@@ -233,9 +291,6 @@ ul > li {
 }
 
 .contact_me {
-	/*display: flex;
-	flex-wrap: wrap;
-	justify-content: center;*/
 	text-align: center;
 }
 
