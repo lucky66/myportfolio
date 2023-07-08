@@ -133,6 +133,7 @@ background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 
 .hire_me {
 	padding: 12px;
+	height: 40px;
 	float: right;
 	background-color: #495aff;
 	border-radius: 50px;
