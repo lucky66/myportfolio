@@ -28,6 +28,11 @@ body.light {
 	border-radius: 5px;
 }
 
+.logo a{
+	text-decoration: none;
+	color: inherit;
+}
+
 .logo:hover {
 	background-color: #a6a6a6;
 	cursor: pointer;
@@ -197,7 +202,6 @@ ul > li {
 
 #about {
 	display: block;
-	padding: 15px;
 	line-height: 25px;
 	text-align: justify;
 	margin-top: 30px;
