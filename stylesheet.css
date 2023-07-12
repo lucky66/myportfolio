@@ -11,7 +11,7 @@ html {
 	font-size: 15px;
 	background-color: #e5e7eb;
 	transition: background-color 500ms ease-in-out;
-	color: #000;
+	color: #000; /*set background-color to dark*/
 }
 
 body.light {
@@ -68,23 +68,18 @@ nav.upper_nav {
 
 .botron {
 	background-color: inherit;
-	margin: 0px 20px 35px 10px;
+	margin: 0px 20px 35px 10px; /* margin for responsiveness */
 	width: 724px;
 	height: 100%;
 	display: block;
 }
 
-#botron_header {
-/*	background-color: #d6deeb;*/
-/*	background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);*/
-/*	background: url('img/assets/Img_1.png');*/
-/*	background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);*/
-/*	background-image: linear-gradient(-225deg, #2CD8D5 0%, #2CD8D5 48%, #8E37D7 100%);*/
-background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+#botron_header { /* Contains animated header*/
+	background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 	box-shadow: 1px 2px 15px rgba(0, 0, 0, .5);
 	height: 240px;
 	position: relative;
-	overflow: hidden;
+	overflow: hidden; /*hides overflow of animated object*/
 }
 
 #botron_header.light {
@@ -116,19 +111,7 @@ background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 }
 
 .title_section {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	padding: 15px 0px 0px 0px;
-}
-
-.bio_section {
-	margin-top: 12px;
-}
-
-.award {
-	font-size: 25px; 
-	vertical-align: 0.5em;"
 }
 
 .hire_me {
@@ -148,6 +131,16 @@ background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 	color: #fff;
 }
 
+.bio_section {
+	margin-top: 12px;
+	text-align: justify;
+}
+
+.award {
+	font-size: 25px; 
+	vertical-align: 0.5em;
+}
+
 #sub_section {
 }
 
@@ -158,7 +151,7 @@ background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 }
 
 ul {
-	list-style:none;
+	list-style-type:none;
 	padding-left:0;
 	display: flex;
 	flex-wrap: wrap;
