@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+	<style>
+		body {
+			background-color: #fff;
+			color: #000;
+		}
+
+		body.light {
+			background-color: #000;
+			color: #fff;
+
+		}
+
+		#changeTheme {
+			background-color: red;
+			cursor: pointer;		
+		}
+	</style>
+</head>
+<body b>
+
+	<h1>Hello World</h1>
+
+	<div id="changeTheme">Change Theme</div>
+
+</body>
+
+<script type="text/javascript">
+	
+	const colorToggle = document.getElementById('changeTheme');
+	const body = document.body;
+
+	colorToggle.addEventListener('click', function() {
+		// body...
+		body.classList.toggle('light');
+	});
+
+</script>
+
+</html>

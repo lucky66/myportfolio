@@ -68,7 +68,7 @@ nav.upper_nav {
 
 .botron {
 	background-color: inherit;
-	margin: 0px 20px 35px 10px; /* margin for responsiveness */
+	margin: 0px 20px 10px 10px; /* margin for responsiveness */
 	width: 724px;
 	height: 100%;
 	display: block;
@@ -453,6 +453,11 @@ footer {
     left: 10px;
     top: -60px;
 }
+
+.upper_nav {
+	font-size: 16px;
+}
+
 
 }
 

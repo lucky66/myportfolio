@@ -9,11 +9,11 @@
 	  rel="stylesheet"/>
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="./js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Lucky</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
 		<nav class="upper_nav">
 
 			<!-- Logo -->
-			<span class="logo"><a href="https://lucky66.github.io/myportfolio/"><i class="fas fa-award logo"></i></a></span>
+			<span class="logo"><a href="https://luckydev.netlify.app/"><i class="fas fa-award logo"></i></a></span>
 			
 			<!-- Change Theme Toggle -->
 			<span id="colorToggle" title="Change Theme">
@@ -392,32 +392,32 @@
 	
 	
 	<script type="text/javascript">
-		$(document).ready(function() {
-		  $('.nav_click').click(function() {
-		    $('.nav_click').removeClass('active');
-		    $(this).addClass('active');
-		  });
+	const colorToggle = document.getElementById('colorToggle');
+    const body = document.body;
+    const signIn = document.getElementById('sign');
+    const headerChange = document.getElementById('botron_header');
+    
 
-		  // Set initial active state based on URL hash
-		  var hash = window.location.hash;
-		  if (hash) {
-		    var activeNavItem = $('.nav_click[href="' + hash + '"]');
-		    activeNavItem.addClass('active');
-		  }
-		});
+    colorToggle.addEventListener('click', function() {
+      body.classList.toggle('light');
+      colorToggle.classList.toggle('active');
+      signIn.classList.toggle('light');
+      headerChange.classList.toggle('light');
+  	});
 
-		const colorToggle = document.getElementById('colorToggle');
-		const body = document.body;
-		const signIn = document.getElementById('sign');
-		const headerChange = document.getElementById('botron_header');
-		
+	$(document).ready(function() {
+      $('.nav_click').click(function() {
+        $('.nav_click').removeClass('active');
+        $(this).addClass('active');
+      });
 
-		colorToggle.addEventListener('click', function() {
-		  body.classList.toggle('light');
-		  colorToggle.classList.toggle('active');
-		  signIn.classList.toggle('light');
-		  headerChange.classList.toggle('light');
-	});
+      // Set initial active state based on URL hash
+      var hash = window.location.hash;
+      if (hash) {
+        var activeNavItem = $('.nav_click[href="' + hash + '"]');
+        activeNavItem.addClass('active');
+      }
+    });
 	</script></div>
 </body>
 </html>

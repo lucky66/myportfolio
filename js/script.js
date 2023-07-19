@@ -25,3 +25,16 @@ function showContent(contentId) {
   }
 };
 
+$(document).ready(function() {
+      $('.nav_click').click(function() {
+        $('.nav_click').removeClass('active');
+        $(this).addClass('active');
+      });
+
+      // Set initial active state based on URL hash
+      var hash = window.location.hash;
+      if (hash) {
+        var activeNavItem = $('.nav_click[href="' + hash + '"]');
+        activeNavItem.addClass('active');
+      }
+    });
