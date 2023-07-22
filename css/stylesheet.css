@@ -93,10 +93,10 @@ nav.upper_nav {
 .profile_shape {
     width: 150px;
     height: 150px;
-    background: url(../img/IMG_3986.jpg);
+   /* background: url(../img/IMG_3986.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
     border-radius: 50%;
     border: 3px solid #e5e7eb;
     position: relative;
@@ -106,7 +106,8 @@ nav.upper_nav {
 }
 
 .profile_shape img {
-	max-width: 100%;
+	object-fit: cover;
+	width: 100%;
 	height: 100%;
 }
 
