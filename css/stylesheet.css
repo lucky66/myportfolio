@@ -464,6 +464,10 @@ footer {
 	margin-bottom: 20px;
 }
 
+span.skills {
+	margin-left: -29px;
+}
+
 
 /*media screens for smartphone*/
 
@@ -491,6 +495,10 @@ footer {
 #project_profile {
 	margin-top: -20px;
 	padding: 25px;
+}
+
+span.skills {
+	margin-left: -8px;
 }
 
 }
