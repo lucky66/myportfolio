@@ -107,6 +107,7 @@ nav.upper_nav {
 }
 
 .profile_shape img {
+	padding: 50px;
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
