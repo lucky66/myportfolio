@@ -75,7 +75,7 @@ nav.upper_nav {
 }
 
 #botron_header { /* Contains animated header*/
-/*	background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);*/
+/*	background-image: linear-gradient(to right, #0acffe 0%, #7A147F 100%);*/
 	background: url(../img/header1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -126,7 +126,7 @@ nav.upper_nav {
 	padding: 12px;
 	height: 40px;
 	float: right;
-	background-color: #495aff;
+	background-color: #7A147F;
 	border-radius: 50px;
 	color: #fff;
 	text-decoration: none;
@@ -189,14 +189,14 @@ ul > li {
 }
 
 .nav_click.active {
-  border-bottom-color: #495aff;
+  border-bottom-color: #7A147F;
 }
 
 
 /*.section_nav a:valid,
 .section_nav a:focus {
 /*	border-bottom: 4px solid #a96816;*/
-/*	border-bottom: 4px solid #495aff;*/
+/*	border-bottom: 4px solid #7A147F;*/
 
 
 .content {
@@ -300,7 +300,7 @@ ul > li {
 
 #content a {
 	text-decoration: none;
-	color: #495aff;
+	color: #7A147F;
 }
 
 #content a:hover {
@@ -364,21 +364,21 @@ ul > li {
 	font-size: 0.65em;
 	padding: 0 10px;
 	background-color: #1d2b3a;
-	border-left: 1px solid #495aff;
-	border-right: 1px solid #495aff;
+	border-left: 1px solid #7A147F;
+	border-right: 1px solid #7A147F;
 	letter-spacing: 0.2em;
 }
 
 /*.inputBox:nth-child(3) input:valid ~ span,
 .inputBox:nth-child(3) input:focus ~ span {
-	background-color: #495aff;
+	background-color: #7A147F;
 	color: #fff;
 	border-radius: 2px;
 }
 */
 .inputBox input:valid,
 .inputBox input:focus {
-	border-right: 3px solid #495aff;
+	border-right: 3px solid #7A147F;
 }
 
 #message01 {
@@ -403,14 +403,14 @@ ul > li {
 	font-size: 0.65em;
 	padding: 0 10px;
 	background-color: #1d2b3a;
-	border-left: 1px solid #495aff;
-	border-right: 1px solid #495aff;
+	border-left: 1px solid #7A147F;
+	border-right: 1px solid #7A147F;
 	letter-spacing: 0.2em;
 }
 
 .inputBox textarea:valid,
 .inputBox textarea:focus {
-	border-right: 3px solid #495aff;
+	border-right: 3px solid #7A147F;
 }
 
 .submit {
@@ -431,7 +431,7 @@ ul > li {
 
 .submit input:valid,
 .submit input:focus {
-	border-right: 3px solid #495aff;
+	border-right: 3px solid #7A147F;
 }
 
 #sign.light {
